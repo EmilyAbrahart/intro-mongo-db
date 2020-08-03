@@ -66,7 +66,6 @@ describe('User model', () => {
       lastName: 'Mills',
       email: 'tg@gmail.com'
     })
-
     expect(user.betaUser).toBe(false)
   })
 
